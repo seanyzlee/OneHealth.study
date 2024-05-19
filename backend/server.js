@@ -10,7 +10,7 @@ connectDB()
 const PORT = process.env.PORT || 5050
 const app = express();
 const corsOptions = {
-    origin: ['http://localhost:3001', 'http://localhost:3000', 'http://localhost:8000'],
+    origin: ['http://localhost:3001', 'http://localhost:3000', 'http://localhost:8000', "https://one-health-study.vercel.app", "one-health-study-frontend.vercel.app"],
 }
 //middlewares
 app.use(cors(corsOptions));
