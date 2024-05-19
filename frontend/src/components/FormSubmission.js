@@ -3,7 +3,7 @@ import axios from "axios";
 import { useMutation } from "@tanstack/react-query"
 
 const makeRequestAPI = async (symptoms) => {
-  const res = await axios.post('https://one-health-study.vercel.app', { symptoms })
+  const res = await axios.post('https://mern-deploy-backend-nlh1.onrender.com', { symptoms })
   return res.data;
 }
 
